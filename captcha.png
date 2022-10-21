@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- proper charset -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+
+    <title>錯誤網頁</title>
+    <meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<!--<META HTTP-EQUIV="Refresh" CONTENT="5; URL=https://www.trade.gov.tw/"/> -->
+    <link rel="StyleSheet" href="wildfly.css" type="text/css">
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="content">
+		<h3><br>本局「出進口廠商、貨品分類管理與績優廠商名錄系統」自108年11月24日起更換網站新連結：</h3>
+        <!--<input type="button" name="homeButton" id="homeButton" value="經貿資訊網" onClick="javascript:location.href='https://www.trade.gov.tw/'" style='background-color:#0878A4;color:white'>-->
+		<input class="btn text-light" type="button" value="出進口廠商管理系統"  title="Exporter/Importer Management System" onClick="javascript:location.href='https://fbfh.trade.gov.tw/fb/index.jsp'" style='background-color:#0878A4;margin-bottom:2rem'>
+		<br><input class="btn text-light" type="button" value="貨品分類及輸出入查詢系統" title="Classification of Commondities and Regulations" onClick="javascript:location.href='https://fbfh.trade.gov.tw/fh/index.jsp'" style='background-color:#0878A4;margin-bottom:2rem'>
+		<br><input class="btn text-light" type="button" value="績優廠商名錄" title="Directory of Excellent Taiwan Exporters and Importers" onClick="javascript:location.href='https://fbfh.trade.gov.tw:8443/eai107/'" style='background-color:#0878A4;'><!-- 8443 port -->
+		<br><span style="font-size:80%;">若有操作問題，請洽詢以下聯絡窗口:
+		<br>廠商系統：(02)2397-7564
+		<br>貨品系統：(02)2397-7562</span>	
+    </div>
+</div>
+</body>
+</html>
